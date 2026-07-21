@@ -1,16 +1,15 @@
 {
   "name": "verify-bot",
   "version": "1.0.0",
-  "description": "Bot de vérification anti-raid Discord",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
   },
   "dependencies": {
-    "discord.js": "^14.15.0",
-    "dotenv": "^16.4.0"
+    "discord.js": "^14.15.3",
+    "dotenv": "^16.4.5"
   },
   "engines": {
-    "node": ">=18"
+    "node": "18.x"
   }
 }
